@@ -11,13 +11,12 @@ import { lightTheme, darkTheme } from './theme/themes';
 
 function App() {
   const darkMode = useDarkMode(true);
-
   return (
     <AppContext.Provider value={{ darkMode }}>
       <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
         <GlobalStyles />
         <div className="App">
-          <BrowserRouter>
+          <BrowserRouter basename="/resumeEvgenii">
             <MainApp />
           </BrowserRouter>
         </div>

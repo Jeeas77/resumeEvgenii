@@ -34,7 +34,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "predeploy": "npm run build && copy build\\index.html build\\404.html",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@emotion/react": "^11.13.3",
@@ -47,6 +49,7 @@
     "eslint-plugin-jsx-a11y": "^6.10.0",
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^4.6.2",
+    "gh-pages": "^6.3.0",
     "jsdom": "^29.1.1",
     "vite": "^8.0.16",
     "vitest": "^4.1.9"
