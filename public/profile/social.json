@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "email",
+            "href": "mailto:Jeniadynin123@gmail.com"
+        },
+        {
+            "network" : "telegram",
+            "href": "https://t.me/Jjeeas"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/Jeeas77"
+        }
+    ]
+}

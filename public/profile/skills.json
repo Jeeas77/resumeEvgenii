@@ -1,0 +1,92 @@
+{
+    "intro": "Люблю разбираться в том, как устроены системы, и доводить их до рабочего состояния.\n\nКроме языков и инструментов ниже: поиск и фиксация дефектов, тестирование и отладка устройств, статический и динамический анализ кода, техническая и отчётная документация, схемы алгоритмов и макеты интерфейса.",
+    "skills": [
+        {
+            "title": "Языки",
+            "items" : [
+                {
+                    "icon": "images/skills/kotlin.jpeg",
+                    "title": "Kotlin"
+                },
+                {
+                    "icon": "images/skills/java.png",
+                    "title": "Java"
+                },
+                {
+                    "icon": "images/skills/c.svg",
+                    "title": "C"
+                },
+                {
+                    "icon": "images/skills/c-plus-plus.svg",
+                    "title": "C++"
+                },
+                {
+                    "icon": "images/skills/csharp.svg",
+                    "title": "C#"
+                },
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/database.svg",
+                    "title": "SQL"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                }
+            ]
+        },
+        {
+            "title": "Инструменты",
+            "items" : [
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/android-studio.png",
+                    "title": "Android Studio"
+                },
+                {
+                    "icon": "images/skills/visualstudio.svg",
+                    "title": "Visual Studio"
+                },
+                {
+                    "icon": "images/skills/vscode.svg",
+                    "title": "VS Code"
+                },
+                {
+                    "icon": "images/skills/gradle.svg",
+                    "title": "Gradle"
+                },
+                {
+                    "icon": "images/skills/opencv.svg",
+                    "title": "OpenCV"
+                },
+                {
+                    "icon": "images/skills/scikitlearn.svg",
+                    "title": "scikit-learn"
+                }
+            ]
+        },
+        {
+            "title": "Embedded и Web",
+            "items": [
+                {
+                    "icon": "images/skills/stm32.svg",
+                    "title": "STM32"
+                },
+                {
+                    "icon": "images/skills/html.png",
+                    "title": "HTML5"
+                },
+                {
+                    "icon": "images/skills/css.png",
+                    "title": "CSS"
+                }
+            ]
+        }
+    ]
+}

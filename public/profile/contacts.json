@@ -1,0 +1,36 @@
+{
+    "intro": "Открыт к стажировке и junior-позициям в тестировании, анализе кода и защищённости. Пишите в удобный канал — отвечаю обычно в течение дня.\n\nРезюме: [PDF](/resume.pdf) · [Word](/resume.docx)",
+    "items": [
+        {
+            "label": "Email",
+            "value": "Jeniadynin123@gmail.com",
+            "href": "mailto:Jeniadynin123@gmail.com",
+            "note": "Предпочтительный канал связи"
+        },
+        {
+            "label": "Email (резерв)",
+            "value": "Jeniadynin12@mail.ru",
+            "href": "mailto:Jeniadynin12@mail.ru"
+        },
+        {
+            "label": "Telegram",
+            "value": "@Jjeeas",
+            "href": "https://t.me/Jjeeas"
+        },
+        {
+            "label": "GitHub",
+            "value": "github.com/Jeeas77",
+            "href": "https://github.com/Jeeas77"
+        },
+        {
+            "label": "hh.ru",
+            "value": "Профиль на hh.ru",
+            "href": "https://hh.ru/resume/e806379aff0d5f2ac70039ed1f797569785a44"
+        },
+        {
+            "label": "Локация",
+            "value": "Лениногорск, Россия",
+            "note": "Готов к удалённой работе"
+        }
+    ]
+}
