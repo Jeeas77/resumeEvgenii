@@ -1,0 +1,43 @@
+{
+    "logo" : {
+        "source": "images/logo.png",
+        "height" : 45,
+        "width" : 50
+    },
+    "sections": [
+        {
+            "title": "Главная",
+            "href": "/"
+        },
+        {
+            "title": "Обо мне",
+            "href": "/about"
+        },
+        {
+            "title": "Навыки",
+            "href": "/skills"
+        },
+        {
+            "title": "Образование",
+            "href": "/education"
+        },
+        {
+            "title": "Опыт",
+            "href": "/experience"
+        },
+        {
+            "title": "Проекты",
+            "href": "/projects"
+        },
+        {
+            "title": "Контакты",
+            "href": "/contact"
+        },
+        {
+            "title": "Резюме",
+            "href": "/resume.pdf",
+            "type": "link"
+        }
+    ]
+
+}
