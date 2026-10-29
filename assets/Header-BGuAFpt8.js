@@ -1,0 +1,1 @@
+import{n as e,s as t,t as n}from"./jsx-runtime-Dn_YclF2.js";import{a as r}from"./index-BfNRbwqh.js";e();var i=t(r(),1),a=t(n(),1);function o(e){let{title:t}=e;return(0,a.jsx)(`div`,{className:`header`,children:t})}o.propTypes={title:i.default.string.isRequired};export{o as default};
