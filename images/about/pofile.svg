@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 800">
+<rect width="400" height="800" fill="#5b3fd9"/>
+<text x="200" y="110" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff" text-anchor="middle">Дынин Евгений</text>
+<text x="200" y="152" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#e3dcff" text-anchor="middle">Junior · QA · Security</text>
+<rect x="160" y="185" width="80" height="4" rx="2" fill="#ffffff" fill-opacity="0.75"/>
+<rect x="125" y="240" width="150" height="56" rx="28" fill="#ffffff" fill-opacity="0.16" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2"/>
+<text x="200" y="268" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Python</text>
+<rect x="135" y="320" width="130" height="56" rx="28" fill="#ffffff" fill-opacity="0.16" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2"/>
+<text x="200" y="348" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">SQL</text>
+<rect x="73" y="400" width="254" height="56" rx="28" fill="#ffffff" fill-opacity="0.16" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2"/>
+<text x="200" y="428" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Тестирование</text>
+<rect x="36" y="480" width="328" height="56" rx="28" fill="#ffffff" fill-opacity="0.16" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2"/>
+<text x="200" y="508" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Защита приложений</text>
+<rect x="125" y="560" width="150" height="56" rx="28" fill="#ffffff" fill-opacity="0.16" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2"/>
+<text x="200" y="588" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">STM32</text>
+<rect x="72" y="640" width="256" height="56" rx="28" fill="#ffffff" fill-opacity="0.16" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2"/>
+<text x="200" y="668" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Telegram-боты</text>
+</svg>
