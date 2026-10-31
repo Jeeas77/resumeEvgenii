@@ -122,3 +122,26 @@
   align-items: flex-start;
   justify-content: center;
 }
+
+/* Copy-to-clipboard confirmation (email icon) ----------------------------- */
+.social-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translate(-50%, 0.5rem);
+  z-index: 1100;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+
+.social-toast--visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
