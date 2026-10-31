@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { Fade } from 'react-awesome-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
+import resolvePath from '../utils/resolvePath';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/about.css';
 
@@ -14,6 +15,7 @@ function About(props) {
   useEffect(() => {
     fetch(endpoints.about, {
       method: 'GET',
+      cache: 'no-store',
     })
       .then((res) => res.json())
       .then((res) => setData(res))
@@ -32,7 +34,7 @@ function About(props) {
               </div>
               {data?.imageSource && (
                 <div className="tile about-image-tile span-2 rspan-2">
-                  <img src={data.imageSource} alt="profile" />
+                  <img src={resolvePath(data.imageSource)} alt="profile" />
                 </div>
               )}
             </div>

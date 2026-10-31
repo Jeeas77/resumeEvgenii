@@ -14,6 +14,7 @@ function Experience(props) {
   useEffect(() => {
     fetch(endpoints.experiences, {
       method: 'GET',
+      cache: 'no-store',
     })
       .then((res) => res.json())
       .then((res) => setData(res.experiences))

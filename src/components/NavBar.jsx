@@ -1,8 +1,9 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import React, { useEffect, useState, useContext } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import styled, { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
+import resolvePath from '../utils/resolvePath';
 import ThemeToggler from './ThemeToggler';
 
 const styles = {
@@ -43,6 +44,7 @@ const NavBar = () => {
   useEffect(() => {
     fetch(endpoints.navbar, {
       method: 'GET',
+      cache: 'no-store',
     })
       .then((res) => res.json())
       .then((res) => setData(res))
@@ -59,9 +61,9 @@ const NavBar = () => {
     >
       <Container>
         {data?.logo && (
-          <Navbar.Brand href="/">
+          <Navbar.Brand as={Link} to="/">
             <img
-              src={data?.logo?.source}
+              src={resolvePath(data?.logo?.source)}
               className="d-inline-block align-top"
               alt="main logo"
               style={

@@ -24,6 +24,7 @@ function Home() {
   useEffect(() => {
     fetch(endpoints.home, {
       method: 'GET',
+      cache: 'no-store',
     })
       .then((res) => res.json())
       .then((res) => setData(res))

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactMarkdown from 'react-markdown';
+import resolvePath from '../../utils/resolvePath';
 
 const ProjectCard = ({ project, featured = false }) => {
   const parseBodyText = (text) => <ReactMarkdown>{text}</ReactMarkdown>;
@@ -13,7 +14,7 @@ const ProjectCard = ({ project, featured = false }) => {
     >
       {project?.image && (
         <div className="project-card__media">
-          <img src={project.image} alt={project.title} />
+          <img src={resolvePath(project.image)} alt={project.title} />
         </div>
       )}
 

@@ -11,6 +11,7 @@ function MainApp() {
   useEffect(() => {
     fetch(endpoints.routes, {
       method: 'GET',
+      cache: 'no-store',
     })
       .then((res) => res.json())
       .then((res) => setData(res))
